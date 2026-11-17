@@ -130,3 +130,149 @@ header nav a:hover {
 .card p {
     margin: 0;
 }
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 60px 0;
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.testing-desciption {
+    flex: 1;
+}
+
+.testing h2 {
+    font-size: 24px;
+    margin: 0 0 16px;
+}
+
+.testing p {
+    margin: 0;
+}
+
+.testing .cta {
+    flex-shrink: 0;
+}
+
+.testing .btn {
+    display: inline-block;
+    background-color: #48BB78;
+    color: white;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 5px;
+}
+
+.stories {
+    padding: 60px 0;
+}
+
+.stories h2 {
+    font-size: 24px;
+    color: #5A67D8;
+    margin: 0 0 30px;
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.stories article:last-child {
+    margin-bottom: 0;
+}
+
+.stories article img {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.article-body h3 {
+    font-size: 18px;
+    margin: 0 0 16px;
+}
+
+.article-body p {
+    margin: 0 0 16px;
+}
+
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories a:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.newsletter .container {
+    max-width: 600px;
+}
+
+.newsletter h3 {
+    margin: 0 0 16px;
+}
+
+.newsletter p {
+    margin: 0 0 24px;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 10px;
+}
+
+.newsletter .form-group {
+    flex: 1;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.newsletter button {
+    background-color: #5A67D8;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.newsletter .message {
+    margin-top: 16px;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+}
