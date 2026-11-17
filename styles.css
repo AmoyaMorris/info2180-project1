@@ -276,3 +276,8 @@ footer {
 footer p {
     margin: 0;
 }
+
+.newsletter .message.error {
+    color: #7f1d1d;
+    font-weight: bold;
+}
